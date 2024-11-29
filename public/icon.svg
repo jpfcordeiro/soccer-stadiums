@@ -1,0 +1,24 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 64 64"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    width="64"
+    height="64"
+>
+    <!-- Map Marker -->
+    <path
+        d="M32 58c0-11 20-25.5 20-36a20 20 0 1 0-40 0c0 10.5 20 25 20 36Z"
+        fill="#F43F5E"
+    />
+    <circle cx="32" cy="22" r="12" fill="#FFFFFF" />
+    <!-- Soccer Ball -->
+    <path
+        d="M32 16l4 3-1.5 5h-5l-1.5-5 4-3ZM28 23.5h8M30 26l-2 5M34 26l2 5M31 31h2M28 28h8"
+        stroke="#1C1917"
+        stroke-width="1.5"
+    />
+</svg>

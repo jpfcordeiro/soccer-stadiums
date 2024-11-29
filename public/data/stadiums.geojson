@@ -1,0 +1,257 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "team": "Flamengo",
+                "stadium": "Maracanã"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -43.2302,
+                    -22.9122
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "team": "Vasco da Gama",
+                "stadium": "São Januário"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -43.2345,
+                    -22.8893
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "team": "Botafogo",
+                "stadium": "Nilton Santos (Engenhão)"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -43.2941,
+                    -22.8938
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "team": "Fluminense",
+                "stadium": "Maracanã"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -43.2302,
+                    -22.9122
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "team": "Corinthians",
+                "stadium": "Neo Química Arena"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -46.4747,
+                    -23.5454
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "team": "Palmeiras",
+                "stadium": "Allianz Parque"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -46.6786,
+                    -23.5272
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "team": "São Paulo",
+                "stadium": "Morumbi"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -46.7192,
+                    -23.5989
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "team": "Santos",
+                "stadium": "Vila Belmiro"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -46.3333,
+                    -23.9535
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "team": "Atlético Mineiro",
+                "stadium": "Mineirão"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -43.9712,
+                    -19.8659
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "team": "Cruzeiro",
+                "stadium": "Mineirão"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -43.9712,
+                    -19.8659
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "team": "Grêmio",
+                "stadium": "Arena do Grêmio"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -51.1947,
+                    -29.9739
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "team": "Internacional",
+                "stadium": "Beira-Rio"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -51.235,
+                    -30.0654
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "team": "Bahia",
+                "stadium": "Arena Fonte Nova"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.5042,
+                    -12.9787
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "team": "Sport",
+                "stadium": "Ilha do Retiro"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -34.9067,
+                    -8.0627
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "team": "Fortaleza",
+                "stadium": "Castelão"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.5747,
+                    -3.8194
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "team": "Ceará",
+                "stadium": "Castelão"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -38.5747,
+                    -3.8194
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "team": "Athletico Paranaense",
+                "stadium": "Arena da Baixada"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -49.2768,
+                    -25.4484
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "team": "Coritiba",
+                "stadium": "Couto Pereira"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -49.2618,
+                    -25.4296
+                ]
+            }
+        }
+    ]
+}
