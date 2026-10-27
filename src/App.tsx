@@ -5,12 +5,10 @@ import { MapaStadiums } from "./components/Map";
 
 function App() {
   return (
-    <div className="app-container flex flex-col h-screen">
+    <div className="flex flex-col h-screen w-screen overflow-hidden bg-slate-950">
       <SiteHeader />
-      <main className="flex-grow flex">
-        <div className="flex-grow h-full bg-black rounded-lg">
-          <MapaStadiums />
-        </div>
+      <main className="flex-1 relative overflow-hidden">
+        <MapaStadiums />
       </main>
       <SiteFooter />
     </div>

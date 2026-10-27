@@ -1,50 +1,89 @@
-# React + TypeScript + Vite
+# FutMaps Brasil ⚽🗺️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação interativa de visualização geoespacial dos principais estádios de futebol do Brasil, desenvolvida com **React**, **TypeScript**, **Leaflet** e **Tailwind CSS**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Funcionalidades
 
-## Expanding the ESLint configuration
+- **🗺️ Mapa Interativo em Alta Performance:** Renderização de marcadores e limites estaduais com suporte a alternância de camadas base (CartoDB Dark/Moderno, OpenStreetMap padrão e Imagens de Satélite).
+- **🔍 Busca Inteligente em Tempo Real:** Pesquisa simultânea por nome do estádio, time mandante ou cidade.
+- **📍 Filtros Regionais e por UF:** Seletor de estados com contagem dinâmica de estádios em cada unidade federativa.
+- **👥 Filtro por Capacidade de Público:** Slider para filtrar estádios por capacidade mínima (ex: arenas com mais de 40 mil ou 60 mil torcedores).
+- **✈️ Navegação com Câmera Fluida (`flyTo`):** Clicar em qualquer estádio na lista da barra lateral move suavemente a câmera até o estádio e abre seu popup.
+- **🖼️ Cards e Popups Ricos:** Fotos reais em alta definição com fallback elegante, detalhes técnicos (ano de abertura, capacidade oficial, mandantes) e atalho direto para traçar rota no **Google Maps**.
+- **📊 Estatísticas Dinâmicas:** Resumo instantâneo do total de estádios exibidos e soma da capacidade total de público.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+## 🛠️ Tecnologias Utilizadas
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
+- **React 18** com hooks modernos e tipagem estrita
+- **TypeScript** com tipagem geoespacial completa (`@types/geojson`)
+- **Leaflet & React-Leaflet** para renderização de mapas interativos
+- **Vite** para compilação ultrarrápida
+- **Tailwind CSS** para estilização responsiva e tema esportivo moderno
+- **ESLint** com regras estritas configuradas
+
+---
+
+## 🚀 Como Executar o Projeto
+
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/jpfcordeiro/soccer-stadiums.git
+   cd soccer-stadiums
+   ```
+
+2. **Instale as dependências:**
+   ```bash
+   npm install
+   ```
+
+3. **Inicie o servidor de desenvolvimento:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Para gerar a build de produção:**
+   ```bash
+   npm run build
+   ```
+
+5. **Para validar o código com o linter:**
+   ```bash
+   npm run lint
+   ```
+
+---
+
+## 📂 Estrutura de Dados GeoJSON
+
+Os estádios estão cadastrados em [`public/data/stadiums.geojson`](public/data/stadiums.geojson) seguindo o padrão GeoJSON:
+
+```json
+{
+  "type": "Feature",
+  "properties": {
+    "team": "Flamengo e Fluminense",
+    "stadium": "Maracanã",
+    "capacity": 78838,
+    "city": "Rio de Janeiro",
+    "state": "RJ",
+    "year_opened": 1950,
+    "image": "/estadios/maracana/maracana_1.jpg",
+    "image_credits": "Victor Barbosa",
+    "image_url": "https://www.pexels.com/..."
   },
-})
+  "geometry": {
+    "type": "Point",
+    "coordinates": [-43.2302, -22.9122]
+  }
+}
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+---
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## 📄 Licença
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Distribuído sob a licença MIT. Consulte `LICENSE` para mais informações.

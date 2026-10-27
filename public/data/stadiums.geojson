@@ -5,18 +5,29 @@
       "type": "Feature",
       "properties": {
         "team": "Flamengo e Fluminense",
-        "stadium": "Maracanã",
+        "stadium": "Maracanã (Jornalista Mário Filho)",
         "capacity": 78838,
         "city": "Rio de Janeiro",
         "state": "RJ",
         "year_opened": 1950,
-        "image": "/public/estadios/maracana/maracana_1.jpg",
+        "surface": "Híbrido",
+        "division": "Série A",
+        "world_cup": [
+          1950,
+          2014
+        ],
+        "transport": "Estação Maracanã (Metrô Linha 2 & SuperVia)",
+        "dimensions": "105m x 68m",
+        "image": "/estadios/maracana/maracana_1.jpg",
         "image_credits": "Victor Barbosa",
         "image_url": "https://www.pexels.com/photo/maracana-stadium-in-rio-de-janeiro-15926253/"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-43.2302, -22.9122]
+        "coordinates": [
+          -43.2302,
+          -22.9122
+        ]
       }
     },
     {
@@ -28,13 +39,20 @@
         "city": "Rio de Janeiro",
         "state": "RJ",
         "year_opened": 1927,
-        "image": "/public/estadios/sao_januario/sao_januario_1.jpg",
+        "surface": "Natural",
+        "division": "Série A",
+        "transport": "Linhas de ônibus municipais e Estação São Cristóvão (2km)",
+        "dimensions": "105m x 68m",
+        "image": "/estadios/sao_januario/sao_januario_1.jpg",
         "image_credits": "Bernardo1989, CC BY-SA 4.0",
         "image_url": "https://commons.wikimedia.org/wiki/File:Est%C3%A1dio_de_S%C3%A3o_Janu%C3%A1rio.jpg"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-43.2345, -22.8893]
+        "coordinates": [
+          -43.2345,
+          -22.8893
+        ]
       }
     },
     {
@@ -46,13 +64,20 @@
         "city": "Rio de Janeiro",
         "state": "RJ",
         "year_opened": 2007,
-        "image": "/public/estadios/nilton_santos/nilton_santos_1.jpg",
-        "image_credits": "Gabriel Heusi/Brasil2016.gov.br, CC BY 3.0 BR",
+        "surface": "Sintético",
+        "division": "Série A",
+        "transport": "Estação Olímpica de Engenho de Dentro (SuperVia)",
+        "dimensions": "105m x 68m",
+        "image": "/estadios/nilton_santos/nilton_santos_1.jpg",
+        "image_credits": "Gabriel Heusi / Brasil2016.gov.br, CC BY 3.0 BR",
         "image_url": "https://commons.wikimedia.org/wiki/File:Rio2016_Gerais_030_8069_-c-2016_GabrielHeusi_HeusiAction.jpg"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-43.2941, -22.8938]
+        "coordinates": [
+          -43.2941,
+          -22.8938
+        ]
       }
     },
     {
@@ -64,11 +89,23 @@
         "city": "São Paulo",
         "state": "SP",
         "year_opened": 2014,
-        "image": "link_to_image_neo_quimica.jpg"
+        "surface": "Híbrido",
+        "division": "Série A",
+        "world_cup": [
+          2014
+        ],
+        "transport": "Estação Corinthians-Itaquera (Metrô Linha 3 & CPTM Linha 11)",
+        "dimensions": "105m x 68m",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Arena_Corinthians_%2814896792372%29.jpg/800px-Arena_Corinthians_%2814896792372%29.jpg",
+        "image_credits": "Flickr/Governo do Estado de São Paulo, CC BY 2.0",
+        "image_url": "https://commons.wikimedia.org/wiki/File:Arena_Corinthians_(14896792372).jpg"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-46.4747, -23.5454]
+        "coordinates": [
+          -46.4747,
+          -23.5454
+        ]
       }
     },
     {
@@ -80,75 +117,123 @@
         "city": "São Paulo",
         "state": "SP",
         "year_opened": 2014,
-        "image": "link_to_image_allianz_parque.jpg"
+        "surface": "Sintético",
+        "division": "Série A",
+        "transport": "Estação Palmeiras-Barra Funda (Metrô Linha 3 & CPTM)",
+        "dimensions": "105m x 68m",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Allianz_Parque_em_2015.jpg/800px-Allianz_Parque_em_2015.jpg",
+        "image_credits": "Felipe Bianchi/Governo do Brasil, CC BY 3.0",
+        "image_url": "https://commons.wikimedia.org/wiki/File:Allianz_Parque_em_2015.jpg"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-46.6786, -23.5272]
+        "coordinates": [
+          -46.6786,
+          -23.5272
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
         "team": "São Paulo",
-        "stadium": "Morumbi",
-        "capacity": 67052,
+        "stadium": "Morumbis (Cícero Pompeu de Toledo)",
+        "capacity": 66795,
         "city": "São Paulo",
         "state": "SP",
         "year_opened": 1960,
-        "image": "link_to_image_morumbi.jpg"
+        "surface": "Natural",
+        "division": "Série A",
+        "transport": "Estação São Paulo-Morumbi (Metrô Linha 4 Amarela)",
+        "dimensions": "105m x 68m",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Est%C3%A1dio_do_Morumbi_-_S%C3%A3o_Paulo_FC.jpg/800px-Est%C3%A1dio_do_Morumbi_-_S%C3%A3o_Paulo_FC.jpg",
+        "image_credits": "Marcos Ribolli, CC BY-SA 3.0",
+        "image_url": "https://commons.wikimedia.org/wiki/File:Est%C3%A1dio_do_Morumbi_-_S%C3%A3o_Paulo_FC.jpg"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-46.7192, -23.5989]
+        "coordinates": [
+          -46.7192,
+          -23.5989
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
         "team": "Santos",
-        "stadium": "Vila Belmiro",
+        "stadium": "Vila Belmiro (Urbano Caldeira)",
         "capacity": 16068,
         "city": "Santos",
         "state": "SP",
         "year_opened": 1916,
-        "image": "link_to_image_vila_belmiro.jpg"
+        "surface": "Natural",
+        "division": "Série B",
+        "transport": "Estação VLT Bernardino de Campos",
+        "dimensions": "105m x 68m",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Vila_Belmiro_em_2011.jpg/800px-Vila_Belmiro_em_2011.jpg",
+        "image_credits": "Ezequiel Santos, CC BY 2.0",
+        "image_url": "https://commons.wikimedia.org/wiki/File:Vila_Belmiro_em_2011.jpg"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-46.3333, -23.9535]
+        "coordinates": [
+          -46.3333,
+          -23.9535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Cruzeiro e Atlético Mineiro",
+        "stadium": "Mineirão (Governador Magalhães Pinto)",
+        "capacity": 62160,
+        "city": "Belo Horizonte",
+        "state": "MG",
+        "year_opened": 1965,
+        "surface": "Natural",
+        "division": "Série A",
+        "world_cup": [
+          2014
+        ],
+        "transport": "Estação MOVE Mineirão / Linhas Diretas da Pampulha",
+        "dimensions": "105m x 68m",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Estadio_Mineir%C3%A3o_em_2013.jpg/800px-Estadio_Mineir%C3%A3o_em_2013.jpg",
+        "image_credits": "Alexandre Guzanshe, CC BY-SA 3.0",
+        "image_url": "https://commons.wikimedia.org/wiki/File:Estadio_Mineir%C3%A3o_em_2013.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.9712,
+          -19.8659
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
         "team": "Atlético Mineiro",
-        "stadium": "Mineirão",
-        "capacity": 62160,
+        "stadium": "Arena MRV",
+        "capacity": 46000,
         "city": "Belo Horizonte",
         "state": "MG",
-        "year_opened": 1965,
-        "image": "link_to_image_mineirao.jpg"
+        "year_opened": 2023,
+        "surface": "Natural",
+        "division": "Série A",
+        "transport": "Estação Eldorado do Metrô de Belo Horizonte",
+        "dimensions": "105m x 68m",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Arena_MRV_-_inaugura%C3%A7%C3%A3o.jpg/800px-Arena_MRV_-_inaugura%C3%A7%C3%A3o.jpg",
+        "image_credits": "Pedro Souza/Atlético, CC BY-SA 4.0",
+        "image_url": "https://commons.wikimedia.org/wiki/File:Arena_MRV_-_inaugura%C3%A7%C3%A3o.jpg"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-43.9712, -19.8659]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "team": "Cruzeiro",
-        "stadium": "Mineirão",
-        "capacity": 62160,
-        "city": "Belo Horizonte",
-        "state": "MG",
-        "year_opened": 1965,
-        "image": "link_to_image_cruzeiro.jpg"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-43.9712, -19.8659]
+        "coordinates": [
+          -44.0139,
+          -19.9298
+        ]
       }
     },
     {
@@ -160,27 +245,48 @@
         "city": "Porto Alegre",
         "state": "RS",
         "year_opened": 2012,
-        "image": "link_to_image_arena_gremio.jpg"
+        "surface": "Natural",
+        "division": "Série A",
+        "transport": "Estação Anchieta da Trensurb (Linha 1)",
+        "dimensions": "105m x 68m",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Arena_do_Gr%C3%AAmio_interna.jpg/800px-Arena_do_Gr%C3%AAmio_interna.jpg",
+        "image_credits": "Lucas Uebel, CC BY-SA 3.0",
+        "image_url": "https://commons.wikimedia.org/wiki/File:Arena_do_Gr%C3%AAmio_interna.jpg"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-51.1947, -29.9739]
+        "coordinates": [
+          -51.1947,
+          -29.9739
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
         "team": "Internacional",
-        "stadium": "Beira-Rio",
+        "stadium": "Beira-Rio (José Pinheiro Borda)",
         "capacity": 50128,
         "city": "Porto Alegre",
         "state": "RS",
         "year_opened": 1969,
-        "image": "link_to_image_beira_rio.jpg"
+        "surface": "Híbrido",
+        "division": "Série A",
+        "world_cup": [
+          2014
+        ],
+        "transport": "Corredor de Ônibus Padre Cacique / Linhas Especiais",
+        "dimensions": "105m x 68m",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Est%C3%A1dio_Beira-Rio_Porto_Alegre.jpg/800px-Est%C3%A1dio_Beira-Rio_Porto_Alegre.jpg",
+        "image_credits": "Jefferson Bernardes, CC BY 3.0",
+        "image_url": "https://commons.wikimedia.org/wiki/File:Est%C3%A1dio_Beira-Rio_Porto_Alegre.jpg"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-51.235, -30.0654]
+        "coordinates": [
+          -51.235,
+          -30.0654
+        ]
       }
     },
     {
@@ -188,95 +294,2584 @@
       "properties": {
         "team": "Bahia",
         "stadium": "Arena Fonte Nova",
-        "capacity": 50000,
+        "capacity": 48902,
         "city": "Salvador",
         "state": "BA",
         "year_opened": 1951,
-        "image": "link_to_image_fonte_nova.jpg"
+        "surface": "Natural",
+        "division": "Série A",
+        "world_cup": [
+          2014
+        ],
+        "transport": "Estação Campo da Pólvora (Metrô Linha 1 de Salvador)",
+        "dimensions": "105m x 68m",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Arena_Fonte_Nova_-_Salvador_-_Bahia.jpg/800px-Arena_Fonte_Nova_-_Salvador_-_Bahia.jpg",
+        "image_credits": "Cadu Gomes/Governo da Bahia, CC BY 2.0",
+        "image_url": "https://commons.wikimedia.org/wiki/File:Arena_Fonte_Nova_-_Salvador_-_Bahia.jpg"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-38.5042, -12.9787]
+        "coordinates": [
+          -38.5042,
+          -12.9787
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "team": "Sport",
+        "team": "Vitória",
+        "stadium": "Barradão (Manoel Barradas)",
+        "capacity": 30793,
+        "city": "Salvador",
+        "state": "BA",
+        "year_opened": 1986,
+        "surface": "Natural",
+        "division": "Série A",
+        "transport": "Estação Flamboyant do Metrô e Via Expressa Barradão",
+        "dimensions": "105m x 68m",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Barrad%C3%A3o_em_dia_de_jogo.jpg/800px-Barrad%C3%A3o_em_dia_de_jogo.jpg",
+        "image_credits": "Flickr/EC Vitória, CC BY 2.0",
+        "image_url": "https://commons.wikimedia.org/wiki/File:Barrad%C3%A3o_em_dia_de_jogo.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.4312,
+          -12.9231
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Sport Recife",
         "stadium": "Ilha do Retiro",
         "capacity": 35000,
         "city": "Recife",
         "state": "PE",
         "year_opened": 1937,
-        "image": "link_to_image_ilha_retiro.jpg"
+        "surface": "Natural",
+        "division": "Série B",
+        "world_cup": [
+          1950
+        ],
+        "transport": "Estação Afogados ou Joana Bezerra (Metrô do Recife)",
+        "dimensions": "105m x 68m",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Est%C3%A1dio_Adelmar_da_Costa_Carvalho.jpg/800px-Est%C3%A1dio_Adelmar_da_Costa_Carvalho.jpg",
+        "image_credits": "Williams Aguiar, CC BY-SA 4.0",
+        "image_url": "https://commons.wikimedia.org/wiki/File:Est%C3%A1dio_Adelmar_da_Costa_Carvalho.jpg"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-34.9067, -8.0627]
+        "coordinates": [
+          -34.9067,
+          -8.0627
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "team": "Fortaleza",
-        "stadium": "Castelão",
-        "capacity": 64846,
-        "city": "Fortaleza",
-        "state": "CE",
-        "year_opened": 1973,
-        "image": "link_to_image_castelao.jpg"
+        "team": "Náutico",
+        "stadium": "Aflitos (Eládio de Barros Carvalho)",
+        "capacity": 20000,
+        "city": "Recife",
+        "state": "PE",
+        "year_opened": 1939,
+        "surface": "Natural",
+        "division": "Outras",
+        "transport": "Corredor BRT Norte-Sul / Agamenon Magalhães",
+        "dimensions": "105m x 68m",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Est%C3%A1dio_dos_Aflitos_Recife.jpg/800px-Est%C3%A1dio_dos_Aflitos_Recife.jpg",
+        "image_credits": "Caio Brandão, CC BY-SA 4.0",
+        "image_url": "https://commons.wikimedia.org/wiki/File:Est%C3%A1dio_dos_Aflitos_Recife.jpg"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-38.5747, -3.8194]
+        "coordinates": [
+          -34.8986,
+          -8.0353
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "team": "Ceará",
-        "stadium": "Castelão",
-        "capacity": 64846,
+        "team": "Ceará e Fortaleza",
+        "stadium": "Arena Castelão (Governador Plácido Castelo)",
+        "capacity": 63903,
         "city": "Fortaleza",
         "state": "CE",
         "year_opened": 1973,
-        "image": "link_to_image_ceara.jpg"
+        "surface": "Natural",
+        "division": "Série A",
+        "world_cup": [
+          2014
+        ],
+        "transport": "Terminal de Integração da Parangaba e Linhas Expresso Castelão",
+        "dimensions": "105m x 68m",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Estadio_Castelao_Fortaleza_2013.jpg/800px-Estadio_Castelao_Fortaleza_2013.jpg",
+        "image_credits": "David Valente, CC BY 2.0",
+        "image_url": "https://commons.wikimedia.org/wiki/File:Estadio_Castelao_Fortaleza_2013.jpg"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-38.5747, -3.8194]
+        "coordinates": [
+          -38.5747,
+          -3.8194
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
         "team": "Athletico Paranaense",
-        "stadium": "Arena da Baixada",
-        "capacity": 42502,
+        "stadium": "Ligga Arena (Arena da Baixada)",
+        "capacity": 42372,
         "city": "Curitiba",
         "state": "PR",
         "year_opened": 1999,
-        "image": "link_to_image_arena_baixada.jpg"
+        "surface": "Sintético",
+        "division": "Série A",
+        "world_cup": [
+          2014
+        ],
+        "transport": "Estação-tubo Coronel Dulcídio / Getúlio Vargas (RIT Curitiba)",
+        "dimensions": "105m x 68m",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Arena_da_Baixada_2014.jpg/800px-Arena_da_Baixada_2014.jpg",
+        "image_credits": "Heusi Action/Brasil2016.gov.br, CC BY 3.0 BR",
+        "image_url": "https://commons.wikimedia.org/wiki/File:Arena_da_Baixada_2014.jpg"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-49.2768, -25.4484]
+        "coordinates": [
+          -49.2768,
+          -25.4484
+        ]
       }
     },
     {
       "type": "Feature",
       "properties": {
         "team": "Coritiba",
-        "stadium": "Couto Pereira",
+        "stadium": "Couto Pereira (Major Antônio Couto Pereira)",
         "capacity": 40502,
         "city": "Curitiba",
         "state": "PR",
         "year_opened": 1932,
-        "image": "link_to_image_couto_perreira.jpg"
+        "surface": "Natural",
+        "division": "Série B",
+        "transport": "Estação-tubo Maria Clara / Biarticulado Santa Cândida-Capão Raso",
+        "dimensions": "105m x 68m",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Est%C3%A1dio_Major_Ant%C3%B4nio_Couto_Pereira.jpg/800px-Est%C3%A1dio_Major_Ant%C3%B4nio_Couto_Pereira.jpg",
+        "image_credits": "Guilherme Boulos, CC BY-SA 4.0",
+        "image_url": "https://commons.wikimedia.org/wiki/File:Est%C3%A1dio_Major_Ant%C3%B4nio_Couto_Pereira.jpg"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-49.2618, -25.4296]
+        "coordinates": [
+          -49.2618,
+          -25.4296
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Seleção Brasileira / Clubes do DF",
+        "stadium": "Mané Garrincha (Arena BRB)",
+        "capacity": 72788,
+        "city": "Brasília",
+        "state": "DF",
+        "year_opened": 1974,
+        "surface": "Natural",
+        "division": "Outras",
+        "world_cup": [
+          2014
+        ],
+        "transport": "Terminal da Asa Norte / Estação Central do Metrô DF (2km)",
+        "dimensions": "105m x 68m",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Est%C3%A1dio_Nacional_de_Bras%C3%ADlia_Man%C3%A9_Garrincha.jpg/800px-Est%C3%A1dio_Nacional_de_Bras%C3%ADlia_Man%C3%A9_Garrincha.jpg",
+        "image_credits": "Erica Ramalho/Secretaria Geral da Presidência, CC BY 3.0",
+        "image_url": "https://commons.wikimedia.org/wiki/File:Est%C3%A1dio_Nacional_de_Bras%C3%ADlia_Man%C3%A9_Garrincha.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.8997,
+          -15.7838
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Cuiabá",
+        "stadium": "Arena Pantanal",
+        "capacity": 44097,
+        "city": "Cuiabá",
+        "state": "MT",
+        "year_opened": 2014,
+        "surface": "Natural",
+        "division": "Série A",
+        "world_cup": [
+          2014
+        ],
+        "transport": "Avenida Agrícola Paes de Barros / Corredor de ônibus",
+        "dimensions": "105m x 68m",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Arena_Pantanal_em_Cuiab%C3%A1.jpg/800px-Arena_Pantanal_em_Cuiab%C3%A1.jpg",
+        "image_credits": "Governo de Mato Grosso, CC BY 3.0",
+        "image_url": "https://commons.wikimedia.org/wiki/File:Arena_Pantanal_em_Cuiab%C3%A1.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.1225,
+          -15.6041
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Amazonas FC e Nacional",
+        "stadium": "Arena da Amazônia",
+        "capacity": 44300,
+        "city": "Manaus",
+        "state": "AM",
+        "year_opened": 2014,
+        "surface": "Natural",
+        "division": "Série B",
+        "world_cup": [
+          2014
+        ],
+        "transport": "Terminal de Integração 1 / Avenida Djalma Batista",
+        "dimensions": "105m x 68m",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Arena_da_Amaz%C3%B4nia_Manaus_AM.jpg/800px-Arena_da_Amaz%C3%B4nia_Manaus_AM.jpg",
+        "image_credits": "Marcos André, CC BY-SA 4.0",
+        "image_url": "https://commons.wikimedia.org/wiki/File:Arena_da_Amaz%C3%B4nia_Manaus_AM.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.0281,
+          -3.0831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Remo e Paysandu",
+        "stadium": "Mangueirão (Estádio Olímpico do Pará)",
+        "capacity": 53635,
+        "city": "Belém",
+        "state": "PA",
+        "year_opened": 1978,
+        "surface": "Natural",
+        "division": "Série B",
+        "transport": "Estação BRT Mangueirão (Rodovia Augusto Montenegro)",
+        "dimensions": "105m x 68m",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Novo_Mangueir%C3%A3o_2023.jpg/800px-Novo_Mangueir%C3%A3o_2023.jpg",
+        "image_credits": "Agência Pará, CC BY 2.0",
+        "image_url": "https://commons.wikimedia.org/wiki/File:Novo_Mangueir%C3%A3o_2023.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.4447,
+          -1.3814
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Goiás",
+        "stadium": "Serrinha (Hailé Pinheiro)",
+        "capacity": 14525,
+        "city": "Goiânia",
+        "state": "GO",
+        "year_opened": 1995,
+        "surface": "Natural",
+        "division": "Série B",
+        "transport": "Avenida Edmundo Pinheiro de Abreu / Eixo Anhanguera",
+        "dimensions": "105m x 68m",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Estadio_Haile_Pinheiro_Serrinha.jpg/800px-Estadio_Haile_Pinheiro_Serrinha.jpg",
+        "image_credits": "Flickr/Goiás EC, CC BY 2.0",
+        "image_url": "https://commons.wikimedia.org/wiki/File:Estadio_Haile_Pinheiro_Serrinha.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.2631,
+          -16.7142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Atlético Goianiense",
+        "stadium": "Antônio Accioly (Castelo do Dragão)",
+        "capacity": 12500,
+        "city": "Goiânia",
+        "state": "GO",
+        "year_opened": 1937,
+        "surface": "Natural",
+        "division": "Série A",
+        "transport": "Avenida 24 de Outubro, Setor Campinas / Eixo Anhanguera",
+        "dimensions": "105m x 68m",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Est%C3%A1dio_Ant%C3%B4nio_Accioly.jpg/800px-Est%C3%A1dio_Ant%C3%B4nio_Accioly.jpg",
+        "image_credits": "Heuler Andrey, CC BY-SA 4.0",
+        "image_url": "https://commons.wikimedia.org/wiki/File:Est%C3%A1dio_Ant%C3%B4nio_Accioly.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.2886,
+          -16.6697
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Criciúma",
+        "stadium": "Heriberto Hülse (Majestoso)",
+        "capacity": 19225,
+        "city": "Criciúma",
+        "state": "SC",
+        "year_opened": 1955,
+        "surface": "Natural",
+        "division": "Série A",
+        "transport": "Terminal Central de Criciúma (Linhas Integradas)",
+        "dimensions": "105m x 68m",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Heriberto_H%C3%BClse_2013.jpg/800px-Heriberto_H%C3%BClse_2013.jpg",
+        "image_credits": "Fernando Ribeiro, CC BY 2.0",
+        "image_url": "https://commons.wikimedia.org/wiki/File:Heriberto_H%C3%BClse_2013.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.3622,
+          -28.6833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Chapecoense",
+        "stadium": "Arena Condá",
+        "capacity": 20089,
+        "city": "Chapecó",
+        "state": "SC",
+        "year_opened": 1976,
+        "surface": "Natural",
+        "division": "Série B",
+        "transport": "Rua Clevelândia / Centro de Chapecó",
+        "dimensions": "105m x 68m",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Arena_Cond%C3%A1_em_2016.jpg/800px-Arena_Cond%C3%A1_em_2016.jpg",
+        "image_credits": "Governo de SC, CC BY 2.0",
+        "image_url": "https://commons.wikimedia.org/wiki/File:Arena_Cond%C3%A1_em_2016.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6075,
+          -27.1042
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "América de Natal e ABC",
+        "stadium": "Arena das Dunas",
+        "capacity": 31375,
+        "city": "Natal",
+        "state": "RN",
+        "year_opened": 2014,
+        "surface": "Natural",
+        "division": "Outras",
+        "world_cup": [
+          2014
+        ],
+        "transport": "Avenida Prudente de Morais / Estação CPTM Prisional",
+        "dimensions": "105m x 68m",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Arena_das_Dunas_Natal_2014.jpg/800px-Arena_das_Dunas_Natal_2014.jpg",
+        "image_credits": "Canindé Soares, CC BY-SA 3.0",
+        "image_url": "https://commons.wikimedia.org/wiki/File:Arena_das_Dunas_Natal_2014.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2125,
+          -5.8267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "CRB e CSA",
+        "stadium": "Rei Pelé (Trapichão)",
+        "capacity": 17126,
+        "city": "Maceió",
+        "state": "AL",
+        "year_opened": 1970,
+        "surface": "Natural",
+        "division": "Série B",
+        "transport": "Avenida Siqueira Campos / Bairro Trapiche da Barra",
+        "dimensions": "105m x 68m",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Est%C3%A1dio_Rei_Pel%C3%A9_-_Macei%C3%B3.jpg/800px-Est%C3%A1dio_Rei_Pel%C3%A9_-_Macei%C3%B3.jpg",
+        "image_credits": "Ailton Cruz, CC BY-SA 3.0",
+        "image_url": "https://commons.wikimedia.org/wiki/File:Est%C3%A1dio_Rei_Pel%C3%A9_-_Macei%C3%B3.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7533,
+          -9.6731
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "São Paulo Futebol Clube",
+        "stadium": "Estádio do Morumbi",
+        "capacity": 120000,
+        "city": "Morumbi",
+        "state": "BR",
+        "year_opened": 1960,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1dio%20do%20Morumbi.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1dio%20do%20Morumbi.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.7202,
+          -23.6001
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Rio de Janeiro",
+        "stadium": "Estádio Jornalista Mário Filho",
+        "capacity": 78838,
+        "city": "Maracanã",
+        "state": "BR",
+        "year_opened": 1950,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Maracana%202022.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Maracana%202022.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2303,
+          -22.9122
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Distrito Federal",
+        "stadium": "Estádio Nacional de Brasília Mané Garrincha",
+        "capacity": 69910,
+        "city": "Brasília",
+        "state": "BR",
+        "year_opened": 1970,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1dio%20Nacional%20de%20Bras%C3%ADlia%202022.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1dio%20Nacional%20de%20Bras%C3%ADlia%202022.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.8992,
+          -15.7835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Minas Gerais",
+        "stadium": "Estádio Governador Magalhães Pinto",
+        "capacity": 66658,
+        "city": "Belo Horizonte",
+        "state": "BR",
+        "year_opened": 1965,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Mineir%C3%A3o%20A%C3%A9rea.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Mineir%C3%A3o%20A%C3%A9rea.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.9708,
+          -19.8658
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Santa Cruz Futebol Clube",
+        "stadium": "Estádio José do Rego Maciel",
+        "capacity": 60044,
+        "city": "Recife",
+        "state": "BR",
+        "year_opened": 1972,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Arruda%20Stadium.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Arruda%20Stadium.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.8912,
+          -8.0267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Governo da Bahia",
+        "stadium": "Estádio Octávio Mangabeira",
+        "capacity": 60000,
+        "city": "Salvador",
+        "state": "BR",
+        "year_opened": 1951,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/2116RP037.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/2116RP037.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.5042,
+          -12.9788
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Ceará",
+        "stadium": "Estádio Governador Plácido Castelo",
+        "capacity": 57876,
+        "city": "Fortaleza",
+        "state": "BR",
+        "year_opened": 1973,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fortaleza%20Arena.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fortaleza%20Arena.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.5225,
+          -3.8073
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Goiás",
+        "stadium": "Estádio Serra Dourada",
+        "capacity": 54084,
+        "city": "Goiânia",
+        "state": "BR",
+        "year_opened": 1970,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Serra%20Dourada%20Lotado.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Serra%20Dourada%20Lotado.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.2339,
+          -16.6989
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Clubes Locais",
+        "stadium": "Estádio Municipal João Havelange",
+        "capacity": 53350,
+        "city": "Uberlândia",
+        "state": "BR",
+        "year_opened": 1982,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1dio%20Parque%20do%20Sabi%C3%A1.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1dio%20Parque%20do%20Sabi%C3%A1.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2325,
+          -18.9139
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Distrito Federal",
+        "stadium": "Estádio Mané Garrincha",
+        "capacity": 53250,
+        "city": "Brasília",
+        "state": "BR",
+        "year_opened": 1970,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Estadio%20Mane%20Garrincha%2002.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Estadio%20Mane%20Garrincha%2002.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.8992,
+          -15.7835
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Sport Club Internacional",
+        "stadium": "Estádio Beira-Rio",
+        "capacity": 49055,
+        "city": "Praia de Belas",
+        "state": "BR",
+        "year_opened": 1969,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Beira-Rio-Stadium-Porto-Alegre-Brazil.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Beira-Rio-Stadium-Porto-Alegre-Brazil.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.2361,
+          -30.0656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Prefeitura municipal do Rio de Janeiro",
+        "stadium": "Estádio Nilton Santos",
+        "capacity": 46931,
+        "city": "Rio de Janeiro",
+        "state": "BR",
+        "year_opened": 2007,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Stitched%20003.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Stitched%20003.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2923,
+          -22.8932
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Amazonas",
+        "stadium": "Estádio Vivaldo Lima",
+        "capacity": 46000,
+        "city": "Amazonas",
+        "state": "BR",
+        "year_opened": 1970,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Arena%20Amaz%C3%B4nia%20%282014%29%20-%202.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Arena%20Amaz%C3%B4nia%20%282014%29%20-%202.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.0281,
+          -3.0831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Novonor",
+        "stadium": "Arena Pernambuco",
+        "capacity": 45440,
+        "city": "São Lourenço da Mata",
+        "state": "BR",
+        "year_opened": 2013,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Sport%200%285%29X%283%290%20Santa%20Cruz%20-%20Pernambucano%20BetNacional%202024.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sport%200%285%29X%283%290%20Santa%20Cruz%20-%20Pernambucano%20BetNacional%202024.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.0083,
+          -8.0406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Pará",
+        "stadium": "Estádio Estadual Jornalista Edgar Augusto Proença",
+        "capacity": 45007,
+        "city": "Belém",
+        "state": "BR",
+        "year_opened": 1978,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1dio%20Ol%C3%ADmpico%20do%20Par%C3%A1%20-%202.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1dio%20Ol%C3%ADmpico%20do%20Par%C3%A1%20-%202.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.444,
+          -1.3811
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Clubes Locais",
+        "stadium": "Estádio Kléber Andrade",
+        "capacity": 45000,
+        "city": "Cariacica",
+        "state": "BR",
+        "year_opened": 1983,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Estadiokleberandrade2.JPG",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Estadiokleberandrade2.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3853,
+          -20.3328
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Clubes Locais",
+        "stadium": "Estádio João Machado",
+        "capacity": 45000,
+        "city": "Lagoa Nova",
+        "state": "BR",
+        "year_opened": 1972,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Machadao.JPG",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Machadao.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.2138,
+          -5.8256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Grêmio Foot-Ball Porto Alegrense",
+        "stadium": "Estádio Olímpico Monumental",
+        "capacity": 45000,
+        "city": "Porto Alegre",
+        "state": "BR",
+        "year_opened": 1954,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gremio%20Stadium.JPG",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gremio%20Stadium.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.2136,
+          -30.0605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Universidade Federal de Mato Grosso do Sul",
+        "stadium": "Estádio Universitário Pedro Pedrossian",
+        "capacity": 45000,
+        "city": "Campo Grande",
+        "state": "BR",
+        "year_opened": 1971,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Moren%C3%A3o%20Campo%20Grande2.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Moren%C3%A3o%20Campo%20Grande2.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.6097,
+          -20.5014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Presidente Prudente",
+        "stadium": "Estadio Paulo Constantino",
+        "capacity": 44414,
+        "city": "Presidente Prudente",
+        "state": "BR",
+        "year_opened": 1982,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Derby%20Paulista%20%28Corinthians-Palmeiras%29%20Paulist%C3%A3o%202009.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Derby%20Paulista%20%28Corinthians-Palmeiras%29%20Paulist%C3%A3o%202009.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.415,
+          -22.0986
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Clubes Locais",
+        "stadium": "Estádio Governador Alberto Tavares Silva",
+        "capacity": 44200,
+        "city": "Teresina",
+        "state": "BR",
+        "year_opened": 1973,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1dio%20Governador%20Alberto%20Tavares%20Silva%2C%20Teresina%20PI.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1dio%20Governador%20Alberto%20Tavares%20Silva%2C%20Teresina%20PI.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.793,
+          -5.116
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Sociedade Esportiva Palmeiras",
+        "stadium": "Nubank Parque",
+        "capacity": 43713,
+        "city": "Barra Funda",
+        "state": "BR",
+        "year_opened": 2010,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Allianz%20Parque%202025.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Allianz%20Parque%202025.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.6784,
+          -23.5276
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Amazonas",
+        "stadium": "Arena Amazônia",
+        "capacity": 42924,
+        "city": "Amazonas",
+        "state": "BR",
+        "year_opened": 2014,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Arena%20Amaz%C3%B4nia%20Manaus.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Arena%20Amaz%C3%B4nia%20Manaus.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.0281,
+          -3.0831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Club Athletico Paranaense",
+        "stadium": "Estádio Mário Celso Petraglia",
+        "capacity": 42372,
+        "city": "Curitiba",
+        "state": "BR",
+        "year_opened": 1999,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Arenadabaixada2.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Arenadabaixada2.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.2769,
+          -25.4483
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Clubes Locais",
+        "stadium": "Estádio José Fragelli",
+        "capacity": 40000,
+        "city": "Cuiabá",
+        "state": "BR",
+        "year_opened": 1976,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Verdao%20-Cuiaba%20-%20August%202009.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Verdao%20-Cuiaba%20-%20August%202009.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.0987,
+          -15.5953
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Clubes Locais",
+        "stadium": "Estádio Governador João Castelo",
+        "capacity": 40000,
+        "city": "São Luís",
+        "state": "BR",
+        "year_opened": 1982,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1dio%20Castel%C3%A3o%20em%20S%C3%A3o%20Lu%C3%ADs%2C%20Maranh%C3%A3o%2C%20Brasil.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1dio%20Castel%C3%A3o%20em%20S%C3%A3o%20Lu%C3%ADs%2C%20Maranh%C3%A3o%2C%20Brasil.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.2597,
+          -2.5486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Clubes Locais",
+        "stadium": "Estádio José Américo de Almeida Filho",
+        "capacity": 40000,
+        "city": "João Pessoa",
+        "state": "BR",
+        "year_opened": 1975,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Botxtre.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Botxtre.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.8728,
+          -7.1675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Prefeitura Municipal de São Paulo",
+        "stadium": "Estádio do Pacaembu",
+        "capacity": 37730,
+        "city": "São Paulo",
+        "state": "BR",
+        "year_opened": 1938,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Estadio%20Municipal%20do%20Pacaemb%C3%BA.%20-%20panoramio.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Estadio%20Municipal%20do%20Pacaemb%C3%BA.%20-%20panoramio.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.6651,
+          -23.5486
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "América Futebol Clube (São Paulo)",
+        "stadium": "Estádio Benedito Teixeira",
+        "capacity": 36426,
+        "city": "São José do Rio Preto",
+        "state": "BR",
+        "year_opened": 1996,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": null,
+        "image_credits": null,
+        "image_url": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.3589,
+          -20.7972
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Londrina",
+        "stadium": "Estádio do Café",
+        "capacity": 36000,
+        "city": "Londrina",
+        "state": "BR",
+        "year_opened": 1976,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1dio%20Municipal%20Jacy%20Scaff%20-%20Est%C3%A1dio%20do%20Caf%C3%A9.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1dio%20Municipal%20Jacy%20Scaff%20-%20Est%C3%A1dio%20do%20Caf%C3%A9.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.165,
+          -23.2822
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Esporte Clube Vitória",
+        "stadium": "Estádio Manoel Barradas",
+        "capacity": 35632,
+        "city": "Salvador",
+        "state": "BR",
+        "year_opened": 1970,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Jogo%20barradao.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Jogo%20barradao.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.4281,
+          -12.9179
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Sport Club do Recife",
+        "stadium": "Estádio Adelmar da Costa Carvalho",
+        "capacity": 35020,
+        "city": "Recife",
+        "state": "BR",
+        "year_opened": 1937,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1dio%20Ilha%20do%20Retiro%20-%202.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1dio%20Ilha%20do%20Retiro%20-%202.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.9029,
+          -8.0629
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Clubes Locais",
+        "stadium": "Estádio Elmo Serejo Farias",
+        "capacity": 35000,
+        "city": "Taguatinga",
+        "state": "BR",
+        "year_opened": 1978,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Torcida%20do%20Brasiliense%20Futebol%20Clube.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Torcida%20do%20Brasiliense%20Futebol%20Clube.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.0807,
+          -15.8361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Barueri",
+        "stadium": "Arena Barueri",
+        "capacity": 35000,
+        "city": "Barueri",
+        "state": "BR",
+        "year_opened": 1970,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Arena%20Barueri.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Arena%20Barueri.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.8994,
+          -23.5131
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Paraíba",
+        "stadium": "Estádio Governador Ernani Sátyro",
+        "capacity": 35000,
+        "city": "Campina Grande",
+        "state": "BR",
+        "year_opened": 1975,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Amigao.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Amigao.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.8808,
+          -7.2539
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Paraná Clube",
+        "stadium": "Complexo Poliesportivo Pinheirão",
+        "capacity": 35000,
+        "city": "Curitiba",
+        "state": "BR",
+        "year_opened": 1985,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Pinheir%C3%A3o%20lateral%20view.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pinheir%C3%A3o%20lateral%20view.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.2193,
+          -25.4315
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Coritiba Foot Ball Club",
+        "stadium": "Estádio Major Antônio Couto Pereira",
+        "capacity": 34872,
+        "city": "Curitiba",
+        "state": "BR",
+        "year_opened": 1932,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1dio%20Major%20Ant%C3%B4nio%20Couto%20Pereira%2C%202007-2.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1dio%20Major%20Ant%C3%B4nio%20Couto%20Pereira%2C%202007-2.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.2595,
+          -25.4211
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Rio Preto Esporte Clube",
+        "stadium": "Estádio Anísio Haddad",
+        "capacity": 33000,
+        "city": "São José do Rio Preto",
+        "state": "BR",
+        "year_opened": 1968,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rio%20Preto%20X%20Rio%20Claro%20-%20Est%C3%A1dio%20An%C3%ADsio%20Haddad%2C%20S%C3%A3o%20Jos%C3%A9%20do%20Rio%20Preto%20SP.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rio%20Preto%20X%20Rio%20Claro%20-%20Est%C3%A1dio%20An%C3%ADsio%20Haddad%2C%20S%C3%A3o%20Jos%C3%A9%20do%20Rio%20Preto%20SP.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.4011,
+          -20.8347
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Clubes Locais",
+        "stadium": "Estádio Municipal Juscelino Kubitschek",
+        "capacity": 33000,
+        "city": "Itumbiara",
+        "state": "BR",
+        "year_opened": 1977,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1dio%20Municipal%20Juscelino%20Kubitschek.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1dio%20Municipal%20Juscelino%20Kubitschek.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.2436,
+          -18.4086
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Governo da Bahia",
+        "stadium": "Estádio Roberto Santos",
+        "capacity": 32157,
+        "city": "Salvador",
+        "state": "BR",
+        "year_opened": 1979,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1dio%20Roberto%20Santos%20%28Pitua%C3%A7u%29.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1dio%20Roberto%20Santos%20%28Pitua%C3%A7u%29.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.417,
+          -12.9466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Clubes Locais",
+        "stadium": "Estádio Municipal Radialista Mario Helênio",
+        "capacity": 31863,
+        "city": "Juiz de Fora",
+        "state": "BR",
+        "year_opened": 1988,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Entrada%20do%20Est%C3%A1dio%20Municipal%20Radialista%20M%C3%A1rio%20Hel%C3%AAnio%20%28de%20perto%29.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Entrada%20do%20Est%C3%A1dio%20Municipal%20Radialista%20M%C3%A1rio%20Hel%C3%AAnio%20%28de%20perto%29.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3781,
+          -21.7875
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Botafogo Futebol Clube",
+        "stadium": "Estádio Santa Cruz",
+        "capacity": 31527,
+        "city": "Ribeirão Preto",
+        "state": "BR",
+        "year_opened": 1968,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Estadio%20santacruz.JPG",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Estadio%20santacruz.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.7892,
+          -21.2025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Sociedade Esportiva e Recreativa Caxias do Sul",
+        "stadium": "Estádio Francisco Stédile",
+        "capacity": 30802,
+        "city": "Rio Grande do Sul",
+        "state": "BR",
+        "year_opened": 1976,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1dio%20Francisco%20St%C3%A9dile%202019.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1dio%20Francisco%20St%C3%A9dile%202019.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.1967,
+          -29.165
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Esporte Clube Juventude",
+        "stadium": "Estádio Alfredo Jaconi",
+        "capacity": 30519,
+        "city": "Caxias do Sul",
+        "state": "BR",
+        "year_opened": 1970,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/EstadioAlfredoJaconi22.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/EstadioAlfredoJaconi22.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.176,
+          -29.162
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Mato Grosso do Sul",
+        "stadium": "Estádio Fredis Saldivar",
+        "capacity": 30000,
+        "city": "Dourados",
+        "state": "BR",
+        "year_opened": 1986,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": null,
+        "image_credits": null,
+        "image_url": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.7819,
+          -22.2442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Ypiranga Futebol Clube",
+        "stadium": "Estádio Olímpico Colosso da Lagoa",
+        "capacity": 30000,
+        "city": "Erechim",
+        "state": "BR",
+        "year_opened": 1970,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Colosso%20da%20Lagoa.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Colosso%20da%20Lagoa.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.265,
+          -27.651
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Central Sport Club",
+        "stadium": "Estádio Luiz José de Lacerda",
+        "capacity": 30000,
+        "city": "Caruaru",
+        "state": "BR",
+        "year_opened": 1980,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Campo%20do%20Central%20Novembro%202011.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Campo%20do%20Central%20Novembro%202011.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.9731,
+          -8.2786
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Guarani Futebol Clube",
+        "stadium": "Estádio Brinco de Ouro da Princesa",
+        "capacity": 29130,
+        "city": "Campinas",
+        "state": "BR",
+        "year_opened": 1953,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1dio%20Brinco%20de%20Ouro.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1dio%20Brinco%20de%20Ouro.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.0436,
+          -22.9097
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Clubes Locais",
+        "stadium": "Estádio Olímpico Regional Arnaldo Busatto",
+        "capacity": 28125,
+        "city": "Cascavel",
+        "state": "BR",
+        "year_opened": 1982,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/EstadioOlimpicoCascavel.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/EstadioOlimpicoCascavel.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.5025,
+          -24.975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Sociedade Esportiva Palmeiras",
+        "stadium": "Estádio Palestra Itália",
+        "capacity": 27650,
+        "city": "Barra Funda",
+        "state": "BR",
+        "year_opened": 1902,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1dio%20Palestra%20It%C3%A1lia.JPG",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1dio%20Palestra%20It%C3%A1lia.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.6784,
+          -23.5276
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Clubes Locais",
+        "stadium": "Estádio Municipal Massami Uriu",
+        "capacity": 25000,
+        "city": "Sinop",
+        "state": "BR",
+        "year_opened": 1970,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Gigant%C3%A3o.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gigant%C3%A3o.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.4996,
+          -11.8715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Clubes Locais",
+        "stadium": "Estádio Municipal Irmão Gino Maria Rossi",
+        "capacity": 25000,
+        "city": "Pouso Alegre",
+        "state": "BR",
+        "year_opened": 1997,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": null,
+        "image_credits": null,
+        "image_url": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -45.9217,
+          -22.2514
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Clubes Locais",
+        "stadium": "Estádio do Junco",
+        "capacity": 25000,
+        "city": "Sobral",
+        "state": "BR",
+        "year_opened": 1970,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Junco%20sobral.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Junco%20sobral.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -40.3635,
+          -3.6742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Clubes Locais",
+        "stadium": "Q9186140",
+        "capacity": 25000,
+        "city": "Brasil",
+        "state": "BR",
+        "year_opened": 1970,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": null,
+        "image_credits": null,
+        "image_url": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.7288,
+          -17.8623
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Clubes Locais",
+        "stadium": "Estádio Leonardo Nogueira",
+        "capacity": 25000,
+        "city": "Rio Grande do Norte",
+        "state": "BR",
+        "year_opened": 1970,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Nogueir%C3%A3o.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nogueir%C3%A3o.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -37.3569,
+          -5.1856
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Clubes Locais",
+        "stadium": "Q9255475",
+        "capacity": 25000,
+        "city": "Paranavaí",
+        "state": "BR",
+        "year_opened": 1970,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": null,
+        "image_credits": null,
+        "image_url": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.4683,
+          -23.0742
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Club de Regatas Vasco da Gama",
+        "stadium": "Estádio Vasco da Gama",
+        "capacity": 25000,
+        "city": "Rio de Janeiro",
+        "state": "BR",
+        "year_opened": 1927,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1dio%20de%20S%C3%A3o%20Janu%C3%A1rio%20by%20Diego%20Baravelli.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1dio%20de%20S%C3%A3o%20Janu%C3%A1rio%20by%20Diego%20Baravelli.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2283,
+          -22.8909
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Clubes Locais",
+        "stadium": "Estádio Municipal Dr. Waldemiro Wagner",
+        "capacity": 25000,
+        "city": "Paranavaí",
+        "state": "BR",
+        "year_opened": 1992,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": null,
+        "image_credits": null,
+        "image_url": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.4681,
+          -23.0739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Clubes Locais",
+        "stadium": "Estádio Major José Levy Sobrinho",
+        "capacity": 23475,
+        "city": "Limeira",
+        "state": "BR",
+        "year_opened": 1977,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1dio%20Major%20Jos%C3%A9%20Levy%20Sobrinho.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1dio%20Major%20Jos%C3%A9%20Levy%20Sobrinho.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.385,
+          -22.5553
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "América Futebol Clube",
+        "stadium": "Estádio Raimundo Sampaio",
+        "capacity": 23018,
+        "city": "Belo Horizonte",
+        "state": "BR",
+        "year_opened": 1950,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Arena%20Independ%C3%AAncia%20-%20Atl%C3%A9tico%20x%20Fluminense.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Arena%20Independ%C3%AAncia%20-%20Atl%C3%A9tico%20x%20Fluminense.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.9178,
+          -19.9083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Clubes Locais",
+        "stadium": "Estádio Zequinha Roriz",
+        "capacity": 22000,
+        "city": "Luziânia",
+        "state": "BR",
+        "year_opened": 1992,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": null,
+        "image_credits": null,
+        "image_url": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.9411,
+          -16.2466
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Clubes Locais",
+        "stadium": "Estádio Doutor Hermínio Ometto",
+        "capacity": 22000,
+        "city": "São Paulo",
+        "state": "BR",
+        "year_opened": 1970,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1dio%20Dr.%20Herm%C3%ADnio%20Ometto.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1dio%20Dr.%20Herm%C3%ADnio%20Ometto.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.3406,
+          -22.3594
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Clubes Locais",
+        "stadium": "Estádio Fernando Charbub Farah",
+        "capacity": 22000,
+        "city": "Paranaguá",
+        "state": "BR",
+        "year_opened": 1970,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": null,
+        "image_credits": null,
+        "image_url": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5081,
+          -25.5247
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Clubes Locais",
+        "stadium": "Estádio Willie Davids",
+        "capacity": 21600,
+        "city": "Maringá",
+        "state": "BR",
+        "year_opened": 1957,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1dio%20Regional%20Willie%20Davids.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1dio%20Regional%20Willie%20Davids.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.9381,
+          -23.4142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Red Bull Bragantino",
+        "stadium": "Estádio Nabi Abi Chedid",
+        "capacity": 21209,
+        "city": "Bragança Paulista",
+        "state": "BR",
+        "year_opened": 1949,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1dio%20Nabi%20Abi%20Chedid.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1dio%20Nabi%20Abi%20Chedid.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.5369,
+          -22.9654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Volta Redonda",
+        "stadium": "Estádio Raulino de Oliveira",
+        "capacity": 21000,
+        "city": "Volta Redonda",
+        "state": "BR",
+        "year_opened": 1976,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Voltaco.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Voltaco.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -44.0969,
+          -22.5083
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Clubes Locais",
+        "stadium": "Estádio Presidente Vargas",
+        "capacity": 20600,
+        "city": "Fortaleza",
+        "state": "BR",
+        "year_opened": 1941,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Presidentevargasfortal.JPG",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Presidentevargasfortal.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.5367,
+          -3.7458
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Alagoas",
+        "stadium": "Estádio Rei Pelé",
+        "capacity": 20551,
+        "city": "Alagoas",
+        "state": "BR",
+        "year_opened": 1970,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Rei%20Pel%C3%A9.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rei%20Pel%C3%A9.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -35.7592,
+          -9.6706
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Ipatinga",
+        "stadium": "Estádio Municipal João Lamego Netto",
+        "capacity": 20500,
+        "city": "Ipatinga",
+        "state": "BR",
+        "year_opened": 1982,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Vista%20parcial%20do%20Ipating%C3%A3o%2C%20Ipatinga%20MG.JPG",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Vista%20parcial%20do%20Ipating%C3%A3o%2C%20Ipatinga%20MG.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -42.5419,
+          -19.4708
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Araraquara",
+        "stadium": "Estádio Doutor Adhemar de Barros",
+        "capacity": 20287,
+        "city": "Araraquara",
+        "state": "BR",
+        "year_opened": 1951,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fonte%20Luminosa%202011.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fonte%20Luminosa%202011.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.1701,
+          -21.7744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Clubes Locais",
+        "stadium": "Estádio 14 de Dezembro",
+        "capacity": 20280,
+        "city": "Toledo",
+        "state": "BR",
+        "year_opened": 1967,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": null,
+        "image_credits": null,
+        "image_url": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.7544,
+          -24.7239
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Anápolis",
+        "stadium": "Estádio Jonas Duarte",
+        "capacity": 20000,
+        "city": "Anápolis",
+        "state": "BR",
+        "year_opened": 1965,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": null,
+        "image_credits": null,
+        "image_url": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.9558,
+          -16.3463
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Clubes Locais",
+        "stadium": "Estádio Juca Ribeiro",
+        "capacity": 20000,
+        "city": "Uberlândia",
+        "state": "BR",
+        "year_opened": 1933,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1dio%20Juca%20Ribeiro.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1dio%20Juca%20Ribeiro.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.2721,
+          -18.9123
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Clubes Locais",
+        "stadium": "Estádio Municipal Governador Virgílio Távora",
+        "capacity": 20000,
+        "city": "Brasil",
+        "state": "BR",
+        "year_opened": 1970,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": null,
+        "image_credits": null,
+        "image_url": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -39.3945,
+          -7.2347
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Paysandu Sport Club",
+        "stadium": "Estádio Leônidas Sodré de Castro",
+        "capacity": 20000,
+        "city": "Belém",
+        "state": "BR",
+        "year_opened": 1914,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Estadio%20Curuzu%202013.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Estadio%20Curuzu%202013.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.463,
+          -1.444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Clubes Locais",
+        "stadium": "Estádio Luiz Viana Filho",
+        "capacity": 20000,
+        "city": "Itabuna",
+        "state": "BR",
+        "year_opened": 1970,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Itabuna%20Estadio%20Itabunao.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Itabuna%20Estadio%20Itabunao.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -39.2789,
+          -14.8084
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Botafogo de Futebol e Regatas",
+        "stadium": "Estádio de General Severiano",
+        "capacity": 20000,
+        "city": "Rio de Janeiro",
+        "state": "BR",
+        "year_opened": 1913,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/General%20severiano%201913.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/General%20severiano%201913.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1778,
+          -22.9536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Paraná Clube",
+        "stadium": "Estádio Durival Britto e Silva",
+        "capacity": 20000,
+        "city": "Curitiba",
+        "state": "BR",
+        "year_opened": 1947,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Vila%20panoramica.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Vila%20panoramica.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.2558,
+          -25.4394
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Distrito Federal",
+        "stadium": "Estádio Walmir Campelo Bezerra",
+        "capacity": 20000,
+        "city": "Gama",
+        "state": "BR",
+        "year_opened": 1977,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1dio%20Walmir%20Campelo%20Bezerra.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1dio%20Walmir%20Campelo%20Bezerra.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.0622,
+          -16.0125
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Mogi Mirim Esporte Clube",
+        "stadium": "Estádio Vail Chaves",
+        "capacity": 19900,
+        "city": "Mogi Mirim",
+        "state": "BR",
+        "year_opened": 1991,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": null,
+        "image_credits": null,
+        "image_url": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.9626,
+          -22.4396
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Clube Náutico Capibaribe",
+        "stadium": "Estádio Eládio de Barros Carvalho",
+        "capacity": 19800,
+        "city": "Recife",
+        "state": "BR",
+        "year_opened": 1939,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1dio%20dos%20Aflitos.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1dio%20dos%20Aflitos.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -34.8967,
+          -8.0406
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Associação Atlética Ponte Preta",
+        "stadium": "Estádio Moisés Lucarelli",
+        "capacity": 19728,
+        "city": "Campinas",
+        "state": "BR",
+        "year_opened": 1948,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Fachada%20do%20Est%C3%A1dio%20Mois%C3%A9s%20Lucarelli.JPG",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fachada%20do%20Est%C3%A1dio%20Mois%C3%A9s%20Lucarelli.JPG"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.0514,
+          -22.9136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Figueirense Futebol Clube",
+        "stadium": "Estádio Orlando Scarpelli",
+        "capacity": 19584,
+        "city": "Florianópolis",
+        "state": "BR",
+        "year_opened": 1948,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1dio%20Orlando%20Scarpelli.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1dio%20Orlando%20Scarpelli.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5867,
+          -27.5856
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Clubes Locais",
+        "stadium": "Estádio Colosso do Tapajós",
+        "capacity": 19524,
+        "city": "Santarém",
+        "state": "BR",
+        "year_opened": 1987,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Colosso%20do%20Tapajos.png",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Colosso%20do%20Tapajos.png"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.7147,
+          -2.4439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Criciúma Esporte Clube",
+        "stadium": "Estádio Heriberto Hülse",
+        "capacity": 19300,
+        "city": "Criciúma",
+        "state": "BR",
+        "year_opened": 1955,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Heriberto%20Hulse%20lotado%20-%20panoramio.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Heriberto%20Hulse%20lotado%20-%20panoramio.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.3675,
+          -28.6842
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Clubes Locais",
+        "stadium": "Estádio Municipal Adail Nunes da Silva",
+        "capacity": 18805,
+        "city": "Taquaritinga",
+        "state": "BR",
+        "year_opened": 1983,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Patinhas%20esteve%20aqui%20-%20Taquar%C3%A3o%20-%20panoramio.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Patinhas%20esteve%20aqui%20-%20Taquar%C3%A3o%20-%20panoramio.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.4934,
+          -21.4006
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Marília",
+        "stadium": "Estádio Bento de Abreu Sampaio Vidal",
+        "capacity": 18000,
+        "city": "Campo Grande",
+        "state": "BR",
+        "year_opened": 1967,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": null,
+        "image_credits": null,
+        "image_url": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.9394,
+          -22.2195
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Clubes Locais",
+        "stadium": "Estádio Municipal Antônio de Figueiredo Carneiro",
+        "capacity": 18000,
+        "city": "Alagoinhas",
+        "state": "BR",
+        "year_opened": 1970,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": null,
+        "image_credits": null,
+        "image_url": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.4152,
+          -12.1403
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "team": "Clubes Locais",
+        "stadium": "Estádio Engenheiro Luthero Lopes",
+        "capacity": 18000,
+        "city": "Rondonópolis",
+        "state": "BR",
+        "year_opened": 1970,
+        "surface": "Natural",
+        "division": "Outras",
+        "dimensions": "105m x 68m",
+        "image": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1dio%20Lutero%20Lopes.jpg",
+        "image_credits": "Wikimedia Commons",
+        "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Est%C3%A1dio%20Lutero%20Lopes.jpg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.6002,
+          -16.4578
+        ]
       }
     }
   ]
