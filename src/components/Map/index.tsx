@@ -7,6 +7,7 @@ import {
   Marker,
   Popup,
   Tooltip,
+  ZoomControl,
 } from "react-leaflet";
 import { Icon, LatLng } from "leaflet";
 import "leaflet/dist/leaflet.css";
@@ -192,27 +193,41 @@ export const MapaStadiums: React.FC = () => {
         zoom={4}
         minZoom={3}
         maxZoom={18}
+        zoomControl={false}
         className="w-full h-full"
       >
+        <ZoomControl position="bottomright" />
         <MapController selectedStadium={selectedStadium} />
 
         <LayersControl position="topright">
-          <LayersControl.BaseLayer checked name="CartoDB Dark (Moderno)">
+          <LayersControl.BaseLayer checked name="Modo Escuro (CartoDB Dark)">
             <TileLayer
-              attribution='&copy; <a href="https://carto.com/">CartoDB</a> contributors | &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-              url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
+              attribution='&copy; <a href="https://carto.com/">CARTO</a> &bull; &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+              url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
+              subdomains="abcd"
+              maxZoom={19}
+            />
+          </LayersControl.BaseLayer>
+          <LayersControl.BaseLayer name="Modo Claro (CartoDB Positron)">
+            <TileLayer
+              attribution='&copy; <a href="https://carto.com/">CARTO</a> &bull; &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+              url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
+              subdomains="abcd"
+              maxZoom={19}
             />
           </LayersControl.BaseLayer>
           <LayersControl.BaseLayer name="OpenStreetMap Padrão">
             <TileLayer
               attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+              url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+              maxZoom={19}
             />
           </LayersControl.BaseLayer>
-          <LayersControl.BaseLayer name="Satélite / Terreno">
+          <LayersControl.BaseLayer name="Satélite (Esri World Imagery)">
             <TileLayer
               attribution='Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
               url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}"
+              maxZoom={18}
             />
           </LayersControl.BaseLayer>
         </LayersControl>

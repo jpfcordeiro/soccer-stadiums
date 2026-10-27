@@ -39,13 +39,30 @@ export const Sidebar: React.FC<SidebarProps> = ({
     return filteredStadiums.reduce((acc, curr) => acc + (curr.properties.capacity || 0), 0);
   }, [filteredStadiums]);
 
+  // Ao selecionar um estádio no mobile, fecha automaticamente a sidebar para ver o mapa
+  const handleStadiumClick = (stadium: StadiumFeature) => {
+    onSelectStadium(stadium);
+    if (window.innerWidth < 640) {
+      onToggle();
+    }
+  };
+
   return (
     <>
+      {/* Backdrop para mobile quando a sidebar estiver aberta */}
+      {isOpen && (
+        <div
+          onClick={onToggle}
+          className="fixed inset-0 bg-black/60 z-[990] sm:hidden backdrop-blur-xs transition-opacity duration-300"
+          aria-hidden="true"
+        />
+      )}
+
       {/* Botão flutuante para reabrir quando fechada */}
       {!isOpen && (
         <button
           onClick={onToggle}
-          className="absolute top-4 left-4 z-[1000] bg-slate-900/90 text-white p-2.5 rounded-xl shadow-xl hover:bg-slate-800 transition-all border border-slate-700/50 flex items-center gap-2 backdrop-blur-sm"
+          className="absolute top-3 left-3 z-[1000] bg-slate-900/90 text-white p-2.5 rounded-xl shadow-xl hover:bg-slate-800 transition-all border border-slate-700/50 flex items-center gap-2 backdrop-blur-sm"
           title="Abrir painel lateral"
         >
           <svg className="w-5 h-5 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -260,7 +277,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
               return (
                 <div
                   key={props.stadium}
-                  onClick={() => onSelectStadium(stadium)}
+                  onClick={() => handleStadiumClick(stadium)}
                   className={`p-3 rounded-xl border transition-all cursor-pointer flex flex-col gap-2 ${
                     isSelected
                       ? "bg-emerald-950/40 border-emerald-500 shadow-md ring-1 ring-emerald-500/50"

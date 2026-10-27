@@ -14,7 +14,7 @@ export const StadiumPopup: React.FC<StadiumPopupProps> = ({ properties, coordina
   const streetViewUrl = `https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=${lat},${lng}`;
 
   return (
-    <div className="w-80 max-w-sm font-sans text-slate-800 -m-1">
+    <div className="w-[280px] sm:w-[320px] max-w-[calc(100vw-48px)] font-sans text-slate-800 -m-1">
       {/* Imagem com fallback elegante */}
       <div className="relative w-full h-40 bg-slate-800 rounded-t-lg overflow-hidden flex items-center justify-center">
         {!imageError && properties.image ? (
